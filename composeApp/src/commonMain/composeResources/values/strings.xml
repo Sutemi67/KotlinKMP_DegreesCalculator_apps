@@ -1,5 +1,5 @@
 <resources>
-    <string name="decimal_value">%.2f</string>
+    <string name="app_name">Degrees calculator</string>
     <string name="grads_value">Grads: %1$d</string>
     <string name="radians_value">Radians: %1$d</string>
     <string name="minutes">Minutes: %1$s° %2$s' %3$s"</string>

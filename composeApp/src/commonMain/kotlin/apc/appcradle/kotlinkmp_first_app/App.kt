@@ -19,6 +19,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import apc.appcradle.kotlinkmp_first_app.components.AppOutlinedField
 import kotlinkmp_first_app.composeapp.generated.resources.Res
+import kotlinkmp_first_app.composeapp.generated.resources.app_name
 import kotlinkmp_first_app.composeapp.generated.resources.grads_value
 import kotlinkmp_first_app.composeapp.generated.resources.minutes
 import kotlinkmp_first_app.composeapp.generated.resources.radians_value
@@ -40,7 +41,7 @@ fun App() {
             radians = calc.getRadians(degrees)
             minutes = calc.getMinutes(degrees)
         }
-        
+
         Column(
             modifier = Modifier
                 .background(MaterialTheme.colorScheme.primaryContainer)
@@ -48,7 +49,7 @@ fun App() {
                 .fillMaxSize(),
             horizontalAlignment = Alignment.CenterHorizontally,
         ) {
-            Text("Degrees calculator")
+            Text(stringResource(Res.string.app_name))
             HorizontalDivider(Modifier.padding(20.dp))
             AppOutlinedField { degrees = it }
             Text(text = stringResource(Res.string.grads_value, grads))
