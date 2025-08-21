@@ -1,0 +1,7 @@
+TEAM_ID=
+
+PRODUCT_NAME=KotlinKMP_First_app
+PRODUCT_BUNDLE_IDENTIFIER=apc.appcradle.kotlinkmp_first_app.KotlinKMP_First_app$(TEAM_ID)
+
+CURRENT_PROJECT_VERSION=1
+MARKETING_VERSION=1.0
